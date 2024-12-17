@@ -1,0 +1,1356 @@
+   Red Hat Certified System Administrator (RHCSA)                          
+----------------------------------------------------------linux introduction--------------------         
+
+
+What is the full form of LINUX? The full form of LINUX is Lovable Intellect Not Using XP. 
+
+Linux was built by and named after (Linus Torvalds). iN 1991    
+
+He originally intended to name it “Freax,” but the administrator of the server Torvalds used to distribute the original code named his directory “Linux” after a combination of Torvalds' first name and the word Unix, and the name stuck.
+ 
+
+Linux is an open-source operating system for servers, computers, mainframes, mobile systems, and embedded systems. 
+Requests from device software are handled by Linux and relayed to computer hardware.
+
+
+
+Linux is a command line is an interface 
+
+
+------------------------------------linux advantages--------------
+
+1. Open Source
+
+2. Security
+
+3. Free to use (Low Cost)
+
+4. Software Updates
+
+5. Network Support
+
+6. Multitasking
+  
+
+-----------------------------------linux flavours------------------- 
+
+lINUX IS  more than 300 Linux distributions are actively maintained
+
+1. Ubuntu
+
+2. Fedora
+
+3. Linux Mint
+
+4. OpenSUSE
+
+5. Debian
+
+6. Arch Linux
+
+7. Kali Linux
+
+8. Gentoo 
+
+9. Red Hat Enterprise
+
+10.CentOS
+
+
+
+---------------------------------------fILE SYSTEM----------------------------------------
+
+
+
+1. directories - holds file
+
+2. special files- /dev can be related to input/output
+
+3. links- soft link and hard link 
+
+4. sockets - we have seen this as well
+
+5. pipes  -- can be namd or normal pipe  Communication
+
+6. .  -- courent directory
+
+7. .. -- parent directory
+
+#cd /
+          #/ ------------------------------------- Root directory (Root is a super user)
+          
+          #/root --------------------------------- it a Home directory for Root user
+
+          #/home  -------------------------------- it a home directory for normal user
+
+          #/bin ---------------------------------- binary executable CMD
+
+          #/sbin --------------------------------- root use All CMD
+
+          #/usr ---------------------------------- user unavailable and Application CMD
+
+          #/etc ---------------------------------- Configuration File
+
+          #/tmp --------------------------------- temporary files
+
+          #/proc --------------------------------- process information
+
+          #/dev ---------------------------------- device file
+
+          #/mnt ---------------------------------- mount poin information
+
+          #/media -------------------------------- Removed media
+
+          #/lib 32
+          #/lib 64 bit  -------------------------- Share the files
+
+          #/var  --------------------------------- Variable files (msg,mail,logs)
+
+          #/srv  --------------------------------- Date 0f service (dns)
+
+          #/opt  --------------------------------- Operation files
+
+          #/sys  --------------------------------- system Information
+
+          #/run  --------------------------------- Run time files (reboot)
+
+          #/boot --------------------------------- All booting files
+
+
+
+
+----------------------------------------------Basic Commands----------------------------
+
+1. mkdir (user name)    -------- Create a Directory
+
+2. touch (file Name)    -------- Create a file
+
+3. ls                   -------- to list the file or Directory
+
+4. ls -a                -------- hidden files
+
+5. ls -l                -------- long listing
+
+6. cd (directory Name)  -------- Change Directory
+
+7. cd -                 -------- past directory
+
+8. cd ..                -------- Show the priver directory
+
+9. cd ~                 -------- show the home directory
+
+10.cd.                  -------- show the present working directory
+
+11.cp                   -------- copy cmd
+
+12.mv                   -------- move cmd
+
+13.pwd                  -------- present working directory
+
+14.rmdir                -------- to remove Empty directory 
+
+15.rm -r                -------- to remove directory and file
+
+16.man                  -------- to viwe manuvel 
+
+17.rm -i                -------- To prevent yourself from accidentally removing a file, you can type rm -i.
+
+18.MV file r directory name ------ change file name and directory name
+
+19.hostname              -------- Show machine name
+
+20.date                 --------- Show today date 
+ 
+21.whoami               --------- show tha user
+
+22.top                  --------- show background running process
+
+23.clear                --------- clear cmd
+
+24.free -m              --------- Show free space
+
+25.history              --------- show a history
+
+26.man history          --------- Show a full history
+
+27.man uname             --------- system information
+
+28.uname                ---------- show user name
+
+29. hostnamectl         ---------- show all details of linux
+
+30. lsblk                -----------  list block devices list device
+
+31. vim                  ----------- Vi IMproved, a programmer's text editor
+
+
+      disk management
+      ---------------
+
+
+
+Disk Management is an important functionality provided by the Operating System which can be used to create, delete, 
+format disk partitions, and much more. It enables users to manage and view the different disks and functions like viewing, 
+creating, deleting, and shrinking the partitions associated with the disk drives.
+
+
+
+
+1) primary Partition   - OS Information storage devices
+
+2) extended Partition   - Create any logical partition
+
+3) logical Partition   - personal use & extended partition (1,file)
+
+4) SWAP                - is like a second RAm is a physical RAm
+
+
+
+#:wq!         - save (vim)
+
+#w            - save (normal)
+
+#q!           - Back to Terminal Cmd
+
+
+      -------------extended Partition  cmd--------------
+Create cmd
+-----------
+
+#lsblk
+#df -h
+#fdisk /dev/nvme0n1
+#n
+#e
+#enter
+#enter
+#w
+#lsblk
+#mkdir /gowtham
+#mkfs.xfs -f /dev/nvme0n1p4 
+#mount /dev/nvme0n1p4 /gowtham
+#df -h
+#vim /etc/fstab   -------- /dev/nvme0n1p4 /gowtham    (writ)
+
+Remove cmd
+----------
+#vim /etc/fstab                           (Remove)
+#umount /dev/nvme0n1p4 /gowtham
+#df -h
+#lsblk
+#fdisk /dev/nvme0n1
+#d
+#w
+
+
+
+logical volume management  -LVM
+-------------------------------
+
+
+In Linux, Logical Volume Manager (LVM) is a device mapper framework that provides logical volume management for the Linux kernel.
+
+Logical volumes are groups of information located on physical volume.
+
+is a form of storage virtualization that offers system administrators a more flexible approach to managing disk storage space than traditional partitionin.
+
+
+PV - physical volume
+
+vg - Volume group
+
+Lv - logical volume
+
+
+
+
+  df -h
+  fdisk /dev/nvme0n1
+  
+
+  lsblk
+  fdisk /dev/nvme0n1
+  t
+  8e
+  fdisk -l
+  lsblk
+  pvcreate pv /dev/nvme0n1p4
+  pvdisplay    #pvs
+  vgcreate -s 2G vg /dev/nvme0n1p4
+  vgdisplay    #vgs
+  lvcreate -L 2G -n /dev/vg/test
+  lvdisplay    #lvs
+  mkdir /lv
+  mkfs.ext4 /dev/mapper/vg-test 
+  mount /dev/vg/test /lv
+  df -h
+  vim /etc/fstab 
+  umount /dev/vg/test /lv 
+  df -h
+  lvextend -L 4G /dev/vg/test
+  mount /dev/vg/test /lv
+  lsblk
+  df -h
+  
+  vim /etc/fstab 
+  umount /dev/vg/test /lv
+  lvremove /dev/vg/test
+  vgremove vg
+  pvremove /dev/nvme0n1p4 
+  lsblk
+  fdisk /dev/nvme0n1
+  lsblk
+
+
+lvm 2cmd
+
+
+  #lsblk 
+  #fdisk /dev/nvme0n1
+  #lsblk 
+  #pvcreate /dev/nvme0n1p4
+  #pvdisplay 
+  #vgcreate -s 2 vg /dev/nvme0n1p4 
+  #vgdisplay 
+  #lvcreate -l 2 -n /dev/vg/rest
+  #lvdisplay 
+  #mkfs.ext4 /dev/mapper/vg-test 
+  #mkdir /aspvd
+  #mount /dev/vg/rest  /aspvd
+  #vim /etc/fstab 
+  #lsblk 
+  #df -h
+  #umount /dev/vg/rest  /aspvd
+  #df -h
+  #lvextend -l 4 /dev/vg/rest
+  #mount /dev/vg/rest  /aspvd
+  #mkfs.xfs -f /dev/vg/rest
+  #df -h
+  #lsblk 
+
+
+remove cmd LVM
+
+  #umount /dev/vg/rest  /aspvd
+  #vim /etc/fstab 
+  #lvremove /dev/vg/rest 
+  #vgremove vg
+  #pvremove /dev/nvme0n1p4 
+  #lsblk
+  #fdisk /dev/nvme0n1
+  #lsblk
+
+
+
+
+swap
+
+#fdisk /dev/nvme0n1
+N
+enter
+enter
+#lsblk
+#fdisk /dev/nvme0n1
+t
+enter
+82
+enter
+w
+#vim /etc/fstab 
+#mount -a
+#lsblk
+#free -h
+#mkswap /dev/nvme0n1p4     (formet cmd)
+#swapon /dev/nvme0n1p4
+#free -h
+
+remove cmd
+----------
+#vim /etc/fstab 
+#swapoff /dev/nvme0n1p4
+#free -h
+#fdisk /dev/nvme0n1
+#lsblk
+
+
+
+
+
+
+                                                                                 USER MANAGEMENT
+                                                                                -----------------
+
+3 TYPES OF USER 
+
+
+1, SUPER USER OR ROOT USER OR ADMIN   UID -0                                            
+
+2. NORMAL USER  UID-1000-60,000             
+
+3. SYSTEM USER  UID -1-999                 ex: ftp server
+
+
+--------------------------------------------------------
+
+1 SUPER USER
+        
+                           * ONE WHO HAS ALL CREDENTIAL TO ACCESS
+                           * UID 0
+
+2 NORMAL USER 
+  
+                           *NORMAL USER CAN BE CREATE BY ROOT USER,USING COMMANDS BY SUDO PRIVILAGE
+                            *UID 1000 TO 60,000
+
+3 SYSTEM USER
+    
+                             *SYSTEM USER  ARE DEFAULT USE WHICH IS CREATED DEFAULT WHILE OS INSTALLATION
+                             *UID 1 TO 999
+                          
+             
+
+----------------------------CMD-----------------------------------------------------------------------------
+
+#vim /etc/passwd   ------------to view user account details                   
+
+#vim /etc/group    ------------to view group account details
+
+#vim /etc/shadow   ------------to view user password details            cat /etc/shadow | grep naveen
+
+#vim /etc/gshadow  ------------to view group password details
+ 
+#vim /etc/login.defs   --------- shadow password suite configuration
+
+
+
+--------------modify---------
+
+#useradd (user Name) ------ create a user HOME LOGIN SHELL 
+
+#userdel (user Name) -------- del user
+
+#passwd  (user Name) -------- create password  or  sudo passwd (user name)
+
+#getent passwd (username)  --- user all details
+
+#getent group G1       ------ To Check The Specil Group details
+
+#id (user Name)     ----- to show UID
+
+#groupadd (user Name) ------- Create Group
+
+
+ex:
+
+#useradd prakash                     
+       *home
+       *group
+
+other add  (".bash, .bash_profile, .bash_logut")
+
+#useradd -u 2001 -g root -c "user with normal privilage" -s /bin/bash -d /opt/test -e 2024-07-30 -p root@123 test1
+
+
+
+
+----------------Passwd cmd-------------------------------------
+
+#chage -l student ---------- Finding out when the last time a user changed the password
+
+#passwd -l student  -------- To lock user account
+
+#passwd -u student  -------- Want to unlock the account password 
+
+#passwd --help     --------- To display detailed
+ 
+#man passwd         -------  To display detailed
+
+#passwd -S student  --------  user account password settings
+
+#passwd --stdin student ---- Change password  then show password
+
+
+
+-------------------------user cmd--------------------------
+
+#usermod -u 1002 book  =To Change use ID
+
+#usermod -c help book  =To Change Command
+
+#usermod -d /mnt book  =To Change home  Directory
+
+#usermod -s /sh/bin book =To Change Shell
+
+#usermod -G (gname) (uname) =to Change group name
+
+#groupmod -g 2001 (user Name) =To Change group UID
+
+#usermod -l (new user name) (old user name)
+
+
+cat /etc/passwd | grep (username)
+
+
+
+
+
+
+----------------------Permissions (Access)----------------------
+
+*Authentication - username, passwd
+
+*Authorization    - permission file access to red, write
+
+
+
+
+1> file level permission
+
+     *change permission
+
+     *facl (file Access control list)
+
+     *Attribute
+
+     *special permission suid sgid stickybit
+
+
+2) cmd leavel Permission
+
+#sudo                  
+
+
+r- read
+
+w- write
+
+x- exit
+
+u- user
+
+G- group
+
+0- others
+
++ - Add is a permission
+
+- - remove in a permission
+
+
+
+
+READ (4)                              WRITE(2)                                        EXECUTE(1)
+
+1                                       1                                                 1 -------7
+
+1                                       1                                                 0 -------6
+ 
+1                                       0                                                 1 -------5                                      
+
+1                                       0                                                 0 -------4
+
+0                                       1                                                 1 -------3
+
+0                                       1                                                 0 -------2
+
+0                                       0                                                 1 -------1
+
+0                                       0                                                 0 -------0    
+
+
+
+
+
+
+
+ #mkdir book
+ #ls -ld
+ #chmod g+w book
+ #ls -ld
+ #chmod g=rw book
+ #ls -l
+ #chmod 654 book
+ #ls -ld
+ #useradd student
+ #groupadd kumar
+ #chgrp -R student book/
+ #ls -ld book
+ #chgrp -R kumar book/
+ #ls -ld book
+
+
+2 facl (file Access control list)
+
+user student #mkdir /test
+#cd test
+#touch home
+#ls
+#su - root  
+#setfacl -m u:student:rwx /home/
+#getfacl /home/
+#setfacl -m g:student:rwx /home/
+#getfacl /home/
+#ls -ld home/text   (text) this file create to home directory then use this cmd
+  
+
+Remove CMD
+---------
+#groupadd g1
+#setfacl -m g:student:--- /home/
+#getfacl /home/
+#setfacl -m u:student:--- /home/
+
+
+------------Attribute-------------------
+
+#mkdir home
+#chattr +i home
+#lsattr 
+#chattr -i home
+#lsattr 
+  
+
+
+Special Permission
+----------------
+
+umask 0000 First bit represents the Special Bit 
+
+4- SUID 
+2- SGID 
+1- Sticky Bit 
+
+*SUID - Normally when a file executes it executes as the logged user but if the Suid flag is set it will run as the owner of the file. 
+
+*SGID - Similar to the SUID but for the group instead of the user 
+
+*Sticky Bit - If set every user can RWX a file, but they cannot delete it.
+																					
+
+
+SUID CMD
+
+#which useradd
+#chmod 777 /usr/sbin/useradd
+#chmod u+s /usr/sbin/useradd
+#su - student
+#useradd red
+
+
+#touch file
+#ls -ld file
+#chmod u+s file
+#ls -ld file
+#chmod 4777 file
+#ls -ld file
+
+
+SGID CMD
+
+#touch file1
+#ls -l
+#chmod 777 file1 
+#ls -l
+#chmod g+s file1 
+#ls -l
+#chmod g-s file1 
+#ls -l
+#chmod 000 file1 
+#ls -l
+
+stickybit
+
+#chmod 1777 file1 
+#ls -l
+or
+#chmod o+t file1
+
+
+2) cmd leavel Permission
+
+sudo cmd
+--------
+
+#which useradd 
+#chmod 777 /usr/sbin/useradd 
+#vim /etc/sudoers               ------------------(normal username ALL=(ALL) /usr/sbin/useradd)
+#su - student 
+#sudo useradd naveen
+#getent  passwd naveen 
+
+
+
+Repository
+----------
+
+*A repository, often referred to as a "repo," in the context of computing and software, is a storage location where software packages and system configurations are kept and maintained. 
+It's a central location that contains a collection of files, often in a structured directory format, used for distribution and version control.
+
+
+*RPM stands for "Red Hat Package Manager." It is both a package file format and the software packaging tool used in various Linux distributions, including Red Hat Enterprise Linux, CentOS, Fedora, and others.
+
+Yellowdog Updater Modified (yum)
+Dandified Yum (DNF)
+
+
+*local Repository 
+*Online Repository 
+*server Repository
+
+
+Repository  CMD
+---------
+
+
+#df -h
+#mkdir /repo
+#cd /run/media/root/RHEL-8-1-0-BaseOS-x86_64/
+#ls
+#cp -R AppStream /repo/
+#cp -R BaseOS /repo/
+#cd /repo/
+#ls
+#cd /etc/yum.repos.d/
+#ls
+#vim red.repo
+#cp red.repo BaseOS.repo
+#vim BaseOS.repo
+#cd
+#yum repolist 
+
+
+
+#vim red.repo
+[repolist]
+name="myrepo"
+baseurl=file:///repo/AppStream
+Enabled=1
+gpgcheck=0
+
+
+#vim Base.repo
+[repository]
+name="Readrepo"
+baseurl=file:///repo/BaseOs
+Enabled=1
+gpgcheck=0
+
+
+
+
+--------------------------link file system------------------
+
+
+hard link                                                                              soft link
+ 
+
+*It is done in directory                                                             directory file
+  
+
+
+* Original file and link file into numbers are some                     in ode number is different for Original and link file
+
+
+
+*some permission for Original & link file                                   different permission for Original & link file
+
+
+
+
+*One the Original file is deleted we can get data form link file           One the Original file is deleted no data will be in link file
+
+
+
+                   
+* #ln                                                                        #ln -s
+
+
+
+
+Hard link
+---------
+
+ #touch FILE1
+ #ls -l
+ #vim FILE1 
+ #ln FILE1 link
+ #ls -l
+ #vim link
+ #rm FILE1 
+ #vim link 
+
+
+Soft link
+---------
+
+#touch home1
+#vim home1 
+#ln -s home1 epo
+#rm home1 
+#ls
+#vim epo 
+
+
+Apache Server (web server)
+
+Apache HTTP Server is used by millions of websites worldwide, ranging from small personal blogs to large-scale enterprise applications. 
+
+
+web server- open source web site host in webserver
+
+web sit- Collection of web page
+
+web page- Available on Variable inside the website
+
+
+
+windows is (Internet Information Services.)
+
+HTTP- (non secure) port no 80 Hyper test transfer protocol
+
+HTTPS- (secure) port no 443 Hyper test transfer protocol with secure
+
+
+SSL certification
+
+SSL certificate plays a crucial role in establishing trust and securing online communications. It enables encrypted connections, validates the identity of websites, and protects users' data from interception and unauthorized access. Websites that use SSL certificates are identified by URLs starting with "https://" and display a padlock icon in the browser's address bar.
+
+  #yum install httpd -y
+  #systemctl enable httpd
+  #systemctl start httpd
+  #vim /etc/httpd/conf/httpd.conf 
+  #vim /var/www/html/index.html 
+  #systemctl restart httpd
+  #firewall-cmd --add-service=http
+  #nmtui
+  #ip a
+
+
+
+
+<html>
+<head>
+<title>lead</title>
+</head>
+<body>
+
+<h1>ASPVD TIME TO KILL</h1>
+<p>time to lead</p>
+
+</body>
+</html>
+
+
+
+
+SSl certification
+----------------
+
+yum install openssl mod_ssl
+openssl genrsa -out test.key
+openssl req -new -key test.key -out key.csr
+openssl x509 -req -days 60 -in key.csr -signkey test.key -out test.crt                           hostname: enter your Ip address
+vim test.key
+vim key.csr
+vim test.crt
+cp test.crt /etc/pki/tls/certs/ 
+cp key.csr /etc/pki/tls/private/
+cp test.key /etc/pki/tls/private/
+vim /etc/httpd/conf.d/ssl.conf 
+systemctl restart httpd
+firewall-cmd --add-service=https
+ip a
+
+
+
+or
+
+#yum install openssl mod_ssl.x86_64 
+#openssl genpkey -algorithm RSA -out my-private-key.pem
+#openssl req -new -key my-private-key.pem -out my-csr.pem
+#dir
+#openssl x509 -req -in my-csr.pem -signkey my-private-key.pem -out my-certificate.pem -days 365
+#vim my-certificate.pem 
+#vim my-private-key.pem 
+#vim my-csr.pem 
+#cp my-certificate.pem  /etc/pki/tls/certs/
+#cp my-csr.pem /etc/pki/tls/private/
+#cp my-private-key.pem /etc/pki/tls/private/
+#systemctl restart http
+#systemctl status httpd.service 
+#systemctl restart httpd
+#firewall-cmd --add-service=https 
+#ip a
+
+
+
+
+----------------NFS----------------
+NFS server involves installing NFS software on the server, defining which directories to share, and configuring access permissions for clients. NFS is commonly used in environments where centralized file storage and sharing across multiple systems are required, such as in enterprise networks or clusters of computers.
+
+
+server cmd
+
+#yum install nfs-utils              rpm -q rpcbind  ---- check cmd
+#systemctl enable rpcbind
+#systemctl start rpcbind
+#systemctl start nfs-server
+#systemctl start rpc-statd
+#systemctl status nfs-server
+#mkdir /share
+#chmod 777 /share
+#vim /etc/exports
+  /share client ip address(rw,sync)
+#exportfs -r
+#showmount -e 
+#cd /share
+#touch good
+#touch bad
+#ls
+#cd
+#systemctl stop firewalld.service 
+
+client cmd
+-----------
+
+#yum install nfs*
+#systemctl start rpcbind
+#systemctl start nfs-server
+#mkdir /nfs
+#showmount -e (server ip address)                                 this server address
+#mount -t nfs (server ip address):/share /nfs    example:     mount -t nfs 192.168.1.5:/share /nfs/
+#df -h
+#cd /nfs
+#touch food {1..3}
+#ls
+#umount -a
+#cd ..
+#vim /etc/fstab  ----------------- 192.168.1.5:/share /nfs                    nfs                    rw,sync,dafaults        0 0        
+#mount -a
+
+
+
+
+------------root pass break------------
+prees e
+#rd.break                     ctri+x
+#mount | grep sysroot
+#mount -0 remount,rw /sysroot
+#chroot /sysroot
+#passwd   (your password)
+#toucch /.autorelabel
+#exit
+#logout
+
+
+Samba service 
+-------------
+
+ Samba is a powerful tool for integrating Unix/Linux systems into Windows-based networks, providing essential services for file and print sharing while maintaining compatibility with Windows protocols and security mechanisms.
+
+CMD
+---
+#yum install samba samba-client samba-common
+#mkdir /win
+#chmod 777 /win
+#useradd red
+#chown red /win/
+#restorecon /win
+#firewall-cmd --add-service=samba
+#vim /etc/samba/smb.conf
+
+[windows]
+         comment = win
+         path = /win
+         write list = yes
+         valid users = red
+         browseable = yes
+         public = no
+
+#testparm 
+#smbpasswd -a red             ---------------- create passwd
+#systemctl restart smb.service 
+
+then go to windows  open run cmd (\\ip address)
+
+
+
+
+
+
+SSH stands for "Secure Shell." It is a cryptographic network protocol used for secure communication over a potentially insecure network, 
+such as the internet. SSH is widely used for securely connecting to remote servers, managing network devices, and transferring files securely.
+
+
+Authentication
+-------------- 
+
+SSH provides secure user authentication using various methods, including password-based authentication, public key authentication, and multi-factor authentication. 
+
+Encryption
+----------
+
+All data transferred between the client and server via SSH is encrypted, making it difficult for eavesdroppers to intercept and decipher the communication.
+
+Remote Shell Access
+-------------------
+
+SSH allows users to log into remote servers or devices and execute commands on them as if they were physically present. This is particularly useful for remote server administration and management.
+
+File Transfer
+-------------
+
+SSH includes tools like SCP (Secure Copy Protocol) and SFTP (SSH File Transfer Protocol) for secure file transfer between local and remote systems.
+
+Port Forwarding
+----------------
+
+SSH allows you to forward ports from a local machine to a remote machine, and vice versa. This is useful for accessing services on a remote server securely.
+
+Security
+-------- 
+
+SSH is designed with security in mind and has mechanisms to protect against various types of attacks, including brute force attacks and man-in-the-middle attacks.
+
+
+
+
+SSH CMD
+------
+
+#rpm -qa | grep ssh
+#systemctl status sshd
+#systemctl restart sshd
+#ssh aspvd@192.168.113.158
+#ping 192.168.113.158
+#ssh aspvd@192.168.113.158
+#su - root
+#cd /etc/ssh 
+#ls -l
+#cd
+#vim  /etc/ssh/sshd_config 
+allowUser (user name 1 are more )
+DenyUser (user name 1 are more )
+
+
+mariadb sql
+-----------
+
+MariaDB is an open-source relational database management system (RDBMS) that was forked from MySQL.
+
+MariaDB is a popular choice for organizations and developers looking for an open-source, feature-rich relational database system with strong performance, compatibility with MySQL, and robust community support. It is widely used in web applications, enterprise solutions, and cloud environments where scalability, reliability, and ease of use are important considerations.
+
+CMD
+----
+
+#yum install mariadb mariadb-server
+#systemctl start mariadb
+#systemctl status mariadb.service 
+#mysql_secure_installation 
+#sudo firewall-cmd --add-service=mysql
+#mysql -u root -p
+
+
+mariadb core
+------------
+
+#create database prakash;
+#use prakash;
+  create table login(                                                    
+  username varchar(20),
+  password varchar(20));
+#INSERT INTO login(username,password) VALUES ('aspvd', 'swift snapper');
+#select*from login;
+
+#SHOW DATABASES;
+#DROP DATABASE (DATABASENAME);
+
+
+
+first create repository
+
+
+#which git
+#yum install git -y
+#mkdir Mumbai
+#cd Mumbai/
+#git init
+#cat > file1
+file1
+created
+#cat > file2
+file2
+created created
+#cat > file3
+file3
+created
+#git status 
+#git add file1
+#git status 
+#git rm --cache file1 (remove cmd)
+#git status 
+#git add *
+#git status
+#git commit -m "first commit"
+#git log
+#git status
+#git show
+#git remote add origin(paste this repository)
+#git push origin master 
+(user name)
+(token paste)
+
+see your github repository
+
+
+
+
+Selinux
+
+SELinux, which stands for Security-Enhanced Linux, is a security framework for Linux operating systems. It is an implementation
+of mandatory access controls (MAC) that provides a more fine-grained and flexible way to control and manage access to 
+system resources, processes, and data than traditional discretionary access controls (DAC).
+
+SELinux supports enforcing, permissive, and disabled mode
+
+#getenforce 
+#cat /etc/selinux/config 
+#vim /etc/selinux/config 
+#ls -lZ
+#setenforce 0
+#getenforce 
+#setenforce 1
+#getenforce 
+#getsebool -a | grep sambe
+#getsebool -a | grep http
+#setsebool samba_export_all_ro=1
+#getsebool -a | grep samba
+#man semanage
+#sestatus 
+
+
+
+
+firewall cmd
+-----------
+
+#systemctl  status firewalld   ----------------------------              firewall Check cmd
+#firewall-cmd --state          ----------------------------              firewall heck cmd another way
+#man firewall-cmd              ----------------------------              show red firewall cmd
+#firewall-cmd --list-all       ----------------------------              show firewall list
+#firewall-cmd --get-default-zone  ----------------------------           show firewall default zone 
+#firewall-cmd --get-zone          
+#firewall-cmd --get-zones
+#firewall-cmd --get-active-zones
+#firewall-cmd --get-services 
+#firewall-cmd --get-services | grep http
+#firewall-cmd --zone=public --add-service=samba
+#firewall-cmd --reload 
+#firewall-cmd --permanent --zone=public --add-service=ftp
+#firewall-cmd --list-all
+
+
+
+
+
+zip files
+--------  
+
+types of zip files
+                code
+gunzip    -------gz
+bunzip    -------bz2
+
+
+mkdir goutham
+cd goutham/
+touch file{1..10}.txt
+ls
+nano file1.txt 
+ls
+nano file10.txt
+cat file10.txt 
+tar -cvf testarchive.tar *.txt
+ls
+nano file2.txt 
+cat file2.txt 
+tar -uvf testarchive.tar *.txt
+ls -l
+rm *.txt
+ls
+tar -xvf testarchive.tar 
+ls
+tar -zgvf gunzip.tar.gz *.txt
+ls
+tar -zcvf gunzip.tar.gz *.txt
+ls
+tar -jcvf bunzip.tar.bz2 *.txt
+du -sh testarchive.tar 
+du -sh gunzip.tar.gz  
+du -sh bunzip.tar.bz2
+zip gouzip.zip *.txt
+ls
+du -sh gouzip.zip
+unzip gouzip.zip 
+rm *.txt
+tar -zxvf gunzip.tar.gz
+ls
+rm *.txt
+tar -jxvf bunzip.tar.bz2 
+
+
+
+
+
+DHCP
+-----
+server cmd
+----------
+#yum install bind bind-utils -y
+#yum install dhcp-server
+#vim /etc/dhcp/dhcpd.conf
+#cp /usr/share/doc/dhcp-server/dhcpd.conf.example /etc/dhcp/dhcpd.conf 
+#vim /etc/dhcp/dhcpd.conf
+#systemctl restart dhcpd
+#firewall-cmd --add-service=dhcp
+#ip a
+
+client cmd
+----------
+
+#just ip address deactivate
+
+
+
+Rsyslog
+-------
+
+Rsyslog is a high-performance and scalable syslog (system logging) daemon commonly used in Unix and Linux systems for managing and processing log messages. It serves as a central component for logging within a system, facilitating the collection, storage, and forwarding of log data generated by various processes, applications, and services.
+
+Rsyslog plays a crucial role in system administration and troubleshooting by facilitating the reliable collection and management of log data, which is essential for maintaining system security, diagnosing issues, and meeting compliance requirements.
+
+
+Rsyslog server cmd 
+-------------------
+
+#rpm -qa | grep syslog
+       0r
+#yum install rsyslog -y
+#cd /var/log/
+#ls
+#systemctl start rsyslog
+#vim /etc/rsyslog.conf 
+#systemctl status rsyslog
+#systemctl restart rsyslog
+#firewall-cmd --permanent --add-port=514/tcp
+#firewall-cmd --permanent --add-port=514/udp
+#firewall-cmd --reload
+
+ofter the client
+
+tail -f /etc/log/secure
+
+client cmd
+----------
+
+#ping (server ip address)
+#systemctl start rsyslog.service
+#systemctl status rsyslog.service
+#vim /etc/rsyslog.conf 
+  
+*.*@@(server ip address)
+
+#systemctl restart rsyslog.service
+#firewall-cmd --permanent --add-port=514/tcp
+#firewall-cmd --permanent --add-port=514/udp
+#firewall-cmd --reload
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dns
+----
+
+$TTL ID
+@       IN SOA test.com. root.test.com. (
+                         0        ; serial
+                         1D       ; refresh
+                         1H       ; retry
+                         1W       ; expire
+                         3H )     ;minimum
+                         
+ @      IN NS server.test.com.
+server  IN A 192.168.113.135
+
+
+
+
+
+
+
+
+
+
+
+$TTL ID
+@       IN SOA test.com. root.test.com. (
+                         0        ; serial
+                         1D       ; refresh
+                         1H       ; retry
+                         1W       ; expire
+                         3H )     ;minimum
+                          
+@      IN   NS          test.com.
+@      IN   PTR         test.com.
+10     IN   PTR         server.test.com
+
+
+
+
+
+
+
+
+
+
+
+https 443
+http 80
+smtp 587
+ssh 22
+
+
+
+
+
+
+
+
+
+

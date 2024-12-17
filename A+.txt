@@ -1,0 +1,484 @@
+----------------------------------------------------------------------A+------------
+
+
+
+A computer is a device that transforms data into meaningful information. It processes the input according to the set of instructions provided to it by the user and gives the desired output. Computers are of various types and they can be categorized in two ways on the basis of size and on the basis of data handling capabilities.
+
+
+Computer hardware is a physical device of computers that we can see and touch. For e.g. Monitor, CPU, Mouse, Joystick, etc.
+
+
+
+
+And on the basis of data handling capabilities, there are three types of computer:
+
+Analog computers
+Digital computers
+Hybrid computers
+
+*Analog computers
+------------------
+        An analog computer or analogue computer is a type of computer that uses the continuous variation aspect of physical phenomena such as electrical, mechanical, or hydraulic quantities (analog signals) to model the problem being solved.
+
+
+It is particularly designed to process analogue data. Continuous data that changes continuously and cannot have discrete values is called analogue data.
+
+ It can directly accept the data from the measuring device without first converting it into numbers and codes
+
+
+
+Digital computers
+-----------------
+
+ A digital computer is machine that stores data in a numerical format and performs operations on that data using mathematical manipulation. 
+
+digital computer is a digital system that performs various computational tasks. The word digital implies that the information in the computer is represented by variables that take a limited number of discrete value
+
+The decimal digits 0, 1, 2, ..., 9, for example, provide 10 discrete values. 
+
+
+Hybrid computers
+----------------
+As the name suggests hybrid, which means made by combining two different things. Similarly, the hybrid computer is a combination of both analog and digital computers.
+
+ So, it is widely used in specialized applications where both analog and digital data is required to be processed.
+
+ A processor which is used in petrol pumps that converts the measurements of fuel flow into quantity and price is an example of a hybrid computer. 
+
+
+So, on the basis of size, there are foure types of computers:
+-------------------------------------------------------------
+1.Supercomputer
+2.Mainframe computer
+3.Minicomputer
+4.PC (Personal Computer)
+
+
+
+
+1. Supercomputer
+
+*When we talk about speed, then the first name that comes to mind when thinking of computers is supercomputers. They are the biggest and fastest computers(in terms of speed of processing data).
+
+* It was first developed by Roger Cray in 1976.
+
+
+2. Mainframe computer
+
+Mainframe computers are designed in such a way that it can support hundreds or thousands of users at the same time. It also supports multiple programs simultaneously. So, they can execute different processes simultaneously.
+
+3. Minicomputer
+
+Minicomputer is a medium size multiprocessing computer. In this type of computer, there are two or more processors, and it supports 4 to 200 users at one time.
+
+
+4. Workstation
+
+Workstation is designed for technical or scientific applications. It consists of a fast microprocessor, with a large amount of RAM and high speed graphic adapter.
+
+
+5. PC (Personal Computer)
+
+It is also known as a microcomputer. It is basically a general-purpose computer and designed for individual use. It consists of a microprocessor as a central processing unit(CPU), memory,  input unit, and output unit. This kind of computer is suitable for personal work such as making an assignment, watching a movie, or at office for office work, etc. For example, Laptops and desktop computers.
+
+
+
+types of Devices
+----------------
+
+1.Input Devices
+2.Output Devices
+3.Storage Devices
+4.Internal Components
+
+
+Input Devices
+-------------
+
+Input devices are those devices with the help of which the user interacts with the computer. Or, In other words, with the help of input devices, the user enters the data or information into the computer.
+
+
+     ex;
+         keyboard,Mouse,Scanner,Light Penm,Microphone,Bar Code Reader,Track Ball
+
+
+keyboard
+--------
+It is the most common and main input device for computers.
+
+Mouse
+----- 
+A mouse is a kind of pointing device which is rolled over to contro.
+
+Scanner
+-------
+As the name suggests, it scans images, documents, etc
+
+Light Pen
+---------
+It is a light-sensitive device and it is touched to the CRT screen where it can detect.
+
+Microphone
+----------
+It is a kind of voice input system which can be attached to a computer system to record sounds 
+
+Bar Code Reader
+---------------
+It is used to read bar codes and convert them into electric pulse which will further processed by the compute
+
+
+Output Devices
+--------------
+
+These are the devices that are used to display the output of any task given to the computer in human-readable form. 
+
+Now we discuss some output devices
+
+ex; 
+   Monitor,Printer,Speakers
+
+
+Monitor
+-------
+Monitor is the main output device. It is also called VDU(visual display unit) and it looks like a TV screen.
+
+Printer
+-------
+A printer is an output device that transfers data from the computer in a printed format by using text or images on paper.
+
+Speakers
+--------
+It is a very common output device and it gives sound as an output. It is generally used to play music or anything having sound.
+
+
+
+Internal Components
+-------------------
+
+Some important hardware devices known as the internal components are discussed below
+
+CPU (Central Processing Unit) 
+-----------------------------
+CPU is also known as the heart of the computer. It consists of three units, in general known as the control unit, Arithmetic Logical Unit (ALU), and the memory unit. Below is the block diagram of CPU is given.
+
+
+                                                                       Memory
+
+primary memory                                                                                                      secondary memory
+
+RAM (RANDOM ACCESS MEMORY)
+
+  SRAM (Static RAM)  -- (STATIC RANDOM ACCESS MEMORY) 
+  
+  DRAM (DYNAMIC RAM) -- (DYNAMIC RANDOM ACCESS MEMORY)  DDR1 DDR2 DDR3 DDR4     Double Data Rate Synchronous Dynamic Random
+
+
+
+ROM(Read Only Memory)
+   
+     PROM ---(Programmable Read Only Memory)                                WE CAN PROGRAM THIS ONE TIME, AFTER THAT,WE CAN'T CHANGE IT
+     
+     EPROM --- (Erasable and Programmable Read Only Memory)              WE CAN ERASE IT ONE TIME USING UV LIGHT AND AGAI WE CAN REWRITE  IT WIL OPERATE AT 12.5V.         
+     
+     EEPROM --- (Electrically Erasable and Programmable Read Only Memory) WE CAN ERESE IT N-TIMES ELECTRIC SIGNAL AND WE CAN REWRITE , ERASE THE CONTENT WILL TAKE 5 MILI SECONDS. OPERATE 5V
+
+
+
+RAM:
+    
+    RANDOM ACCESS MEMORY
+    
+    FASTEST MEMORY COMPARED TO SECONDARY MEMORY
+
+    VOLATIAL MEMORY OR TEMPORARY
+    
+    FIRST, LOAD THE app INSTANT TO THE RAM NEXT OPEN
+
+
+TYPE OF RAM
+
+    GENERALLY RAM DIVIDED NINTO TWO TYPES
+
+       SRAM-------------(STATIC RAM)
+
+       DRAM--------------(DYNAMIC RAM)
+
+DRAM
+   
+    -DYNAMIC RANDOM  ACCESS MEMORY
+
+    -MILLIONS OF TRANSISTOR AND CAPACITORS ARE USED
+
+    -EACH BIT STORES IN SINGLE CAPACITOR
+
+              1) IF CAPACITOR HAS CHARGE THEN ITS 1.
+
+              2) IF CAPACITOR HAS NO CHARGE THEN ITS 0.
+
+
+    -TRANSISITOR ACTS AS A SWOTCH
+
+        1) IT THE TRANSISTOR IS OPEN THEN THERE IS NO POWER FLOW
+   
+        2) IF THE TRANSISTOR IS CLOSED THEN POWER WILL FLOW
+
+
+- PERIODIC REFRESH IS MANDATORY
+
+
+TYPE OF DRAM;
+
+
+         -DRAM IS DIVIDED INTO 3 TYPES, 
+
+                1) ADRAM (ASYNCHRONOUS DRAM)
+
+                2) SDRAM (SYNCHRONOUS DRAM)
+
+                3)DDR SDRAM (DOUBLE DATA RATE SDRAM)
+
+
+
+
+SRAM:
+----
+
+           -STATIC RANDOM ACCESS MEMORY
+
+           - SIX SERIES OF TRANSISTOR
+
+  WE ARE NOT USING CAPACITORS SO NO POWER DISCHARGE.
+
+         --NO NEED TO REFRESH
+
+ADVANTAGES OF SRAM:
+
+                  - VERY FAST.
+
+                  - LESS POWER CONSUMPTION
+
+
+DISADVANTAGES OF SRAM:
+
+            -VERY EXPENSIVE
+
+           -LOW CAPACITY WHEN CAMPARED TO  OTHER MEMORY
+
+
+
+
+
+
+                                SRAM                                                                      DRAM
+
+
+
+1) STATIC RANDOM ACCESS MEMORY                                                                    1) DYNAMIC RANDOM ACCESS MEMORY
+
+
+
+2) 6 SERIES OF TRANSISTOR TO STORE THE DATA                                                       2) CAPACITORY AND TRANSISTOR STORE THE DATA
+
+
+3) NO POWER DISCHARGE & NO REFRESH                                                                3) PERIODIC REFRESH IS NEEDAD                                                               
+
+                    
+
+4) VOLATILE MEMORY                                                                                4) VOLATILE MEMORY        temporary storage
+
+
+
+5) VERY FASt                                                                                      5) SLOW WHEN CAMPARED TO SRAM
+                                                   
+                  
+
+
+6) LOW POWER CANSUMPTION                                                                           6) HIGH POWER CAMPARED TO SRAM
+
+
+
+
+
+7)LIMITED SIZE & COSTY                                                                            7) SLOW
+
+
+
+
+8) PLACED IN PROCESSOR                                                                            8) PLACED IN MOTHERBOARD
+
+
+
+
+                               RAM                                                                                         ROM
+
+  
+
+        1)  RANDOM ACCESS MEMORY                                                                                           1) READ  ONLY MEMORY           
+  
+
+
+       2)  ITS A VOLATILE MEMORY                                                                                           2) IT A NON VOLATILE MEMORY 
+
+
+
+
+       3) TEMPORARY STORAGE                                                                                               3) PERMANENT STORAGE
+
+
+
+       4) WE CAN READ AND WRITE                                                                                            4) WE CAN ONLY READ THE DATA
+      
+  
+
+       5) HIGH SPEED                                                                                                         5)LOW SPEED
+
+
+
+     
+
+
+
+PATA                                                                SATA
+
+PATA stands for Parallel Advanced Technology Attachment        SATA stands for Serial Advanced Technology Attachment.
+
+It is a 40 pin connector                                       It is a 7 pin connector.  
+
+It is high in cost                                             It is cheaper in cost.
+
+The speed of data transfer is lower                            The speed of data transfer is higher.
+
+External hard drives cannot be used	                        External hard drives can be used.
+
+
+
+
+
+BIOS
+       (basic input/output system) is the program a computer's microprocessor uses to start the computer system after it is powered on.
+
+
+
+how boot a pendrive
+------------------
+
+
+1 go to run cmd
+
+#diskpart
+
+#list disk
+
+#select disk 1
+
+#clean
+
+#create partition primary
+
+#format fs=ntfs quick     (wait)
+
+#active
+
+#assign
+
+#exit
+exit
+
+
+
+how to make a bootable pendrive on windowns OS ISO image file
+
+
+
+---------------------------------------------Motherboard types----------------------------
+
+AMd are intel 
+
+
+AMD 
+
+AMd 500 series chipsets
+
+        * getready amd 500 series motherdoards require a BIOS agesa 1.0.8.0(or newer) for postboot(already availavle)
+  
+
+   *AT lanch; user should upgrade tp bios with agesa 1.1.0.0 for the best experience on november 5
+
+
+AMD 400
+
+    
+
+
+
+
+keyboard 
+
+it is an input device that allows letter number.
+
+type of keyboard
+-----------------
+
+1. QWERTY Keyboards.
+
+2. Wired Keyboards.
+
+3. Numeric Keypads.
+
+4. Wireless Keyboards.
+
+5. USB Keyboards.
+
+6. Bluetooth Keyboards.
+
+
+
+keyboard can have 101.120 keys keywood has 104 kay greral standaerd board
+
+character keyword
+
+function keyword
+
+cursor keyword
+
+
+mouse 3 types
+-------------
+
+1. Mechanical mouse ---------------- boll mouse
+
+2. Optical mouse --------------Normalmouse
+
+3. wireless mouse ------------  Bluetooth mouse
+
+
+
+
+
+Troubleshooting
+---------------
+Troubleshooting is a systematic approach to solving a problem
+
+  
+  type of Troubleshoting
+
+The Top-Down Troubleshooting Approach
+The Bottom-Up Troubleshooting Approach
+The Divide-and-Conquer Troubleshooting Approach
+The Follow-the-Path Troubleshooting Approach
+The Swap-Components Troubleshooting Approac
+
+
+
+
+
+CMOS stands for “Complementary Metal Oxide Semiconductor.” The CMOS battery powers the BIOS firmware in your laptop [2]. BIOS needs to remain operational even when your computer isn't plugged into a power source. That's where the battery comes in.
+
+
+
+
+
+
+
+
+

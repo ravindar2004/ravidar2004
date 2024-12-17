@@ -1,0 +1,1959 @@
+                  ------------------------------------------ N+ Networking ------------------------------------------
+Network A computer network is a group of computers connected to communicate and share resources such as a file, printer, email, etc.
+
+*A computer network is a system that connects numerous independent computers to share information (data) and resources. The integration of computers and other different devices allows users to communicate more easily.
+
+
+*A computer network is a collection of two or more computer systems. A network connection can be established using either cable or wireless media. Hardware and software are used to connect computers and tools in any network.
+
+S
+
+----------------------Network types-----------------------------------------
+
+1. Personal area network (PAN)
+
+2. Local area network (LAN)
+
+3. Metropolitan area network (MAN)
+
+4. Campus area network (CAN)
+
+5. Wide area network  (WAN)
+
+
+1.Personal area network
+
+ A personal area network (PAN) is the smallest and simplest type of network. PANs connect devices within the range of an individual and are no larger than about 10 meters (m). Because PANs operate in such limited areas of space, most are wireless and provide short-range connectivity with infrared technology.
+
+           * example of a wireless PAN is when users connect Bluetooth devices, like wireless headsets, to a smartphone or laptop      10 meters or 33 feet
+
+2.Local area network
+    A local area network (LAN) is a system where computers and other devices connect to each other in one location. 1 KM to 10 KM
+
+*Wired LANs use physical cables, like Ethernet, and switches ; WLANs use devices, like wireless routers and access points.
+
+ LANs support home offices and corporate network environments, among others.
+
+*Employees in company offices can quickly communicate, share and access the same data and services provided by their organization.
+
+
+3.Metropolitan area network
+
+ *A metropolitan area network (MAN) is an interconnection of several LANs throughout a city, town or municipality. 
+
+
+*The main purpose of a MAN is to have the same network available in several locations. In a LAN, the network is accessible in one location.   5 kilometers to 50 km.
+
+4.Campus area  network 
+
+*campus network, sometimes referred to as a campus area network or CAN, is a network of interconnected, dispersed LANs. Like MANs, campus networks extend coverage to buildings close in proximity
+
+*The geographical range of a campus network varies from 1 kilometer to 5 km, while MANs can extend to 50 km.
+
+5. Wide area network
+
+   *wide area network (WAN) is the most expansive type of computer network configuration.
+
+    *world's most popular and largest WAN -- today.  100KM  1000 km.
+
+
+internet
+--------
+
+     the internet is the single largest want linking private even continued, and Organizations in the world. 
+
+*The Internet, sometimes called simply "the Net," is a worldwide system of computer networks -- a network of networks in which users at any one computer can, if they have permission, get information from any other computer (and sometimes talk directly to users at other computers).
+
+
+intranet
+--------
+
+    * intranet is a private network contained within an enterprise that is used to securely share company information and computing resources among employees. An intranet can also be used for working in groups and teleconferences. Intranets encourage communication within an organization.
+
+
+
+extranets
+---------
+
+    *Companies use extranets to give customers or vendors access to secure information. It’s a way to share and collaborate with them. 
+If you have a customer who places regular orders from your business, you can create a secure extranet that lets them update orders, process invoices, and message your team.
+
+
+  
+
+Unicast
+-------
+
+Unicast is the term used to describe communication where a piece of information is sent from one point to another point. 
+All LANs (e.g. Ethernet) and IP networks support the unicast transfer mode, and most users are familiar with the standard unicast applications 
+
+ex  http, smtp, ftp and telnet) which employ the TCP transport protocol.
+
+
+Broadcast
+---------
+
+Broadcast is the term used to describe communication where a piece of information is sent from one point to all other points. 
+In this case there is just one sender, but the information is sent to all connected receivers.
+
+--------Types Of broadcasting----------
+
+1.Limited Broadcasting (Within a Network)
+
+2.direct Broadcasting (Over Other Network)
+
+Multicast
+---------
+In this case there is may be one or more senders, and the information is distributed to a set of receivers 
+(the may be no receivers, or any other number of receivers).
+
+Ex; sending message to WhatsApp Group 
+ 
+
+
+topology 
+--------
+
+types of topology
+
+1.Bus Topology
+
+2.Star Topology
+
+3.Ring Topology
+
+4.Mesh Topology
+
+5.Hybrid Topology
+
+6.Tree Topology
+
+
+
+1.Bus Topology
+              
+              *In case of Bus topology, all devices share single communication line or cable.
+      
+              *Bus topology may have problem while multiple hosts sending data at the same time
+
+
+             
+2.Star Topology
+
+
+        * All hosts in Star topology are connected to a central device, known as hub device, using a point-to-point connection. 
+
+        * That is, there exists a point to point connection between hosts and hub. The hub device can be any of the following.
+ 
+        *  As in Bus topology, hub acts as single point of failure.
+
+
+
+3.Ring Topology
+
+           * In ring topology, each host machine connects to exactly two other machines, creating a circular network structure.
+
+           * To connect one more host in the existing structure, the administrator may need only one more extra cable.
+
+
+4.Mesh Topology
+         
+          *In this type of topology, a host is connected to one or multiple hosts.
+
+          *This topology has hosts in point-to-point connection with every other host or may also have hosts which are in point-to-point connection to few hosts only.
+
+
+
+5.Hybrid Topology
+
+              *A network structure whose design contains more than one topology is said to be hybrid topology. 
+ 
+              *Hybrid topology inherits merits and demerits of all the incorporating topologies.
+
+              *Most WANs are connected by means of Dual-Ring topology and networks connected to them are mostly Star topology networks. 
+
+              *Internet is the best example of largest Hybrid topology.
+
+
+
+
+
+what is Bootstrap Protocol
+--------------------------
+
+(Bootstrap Protocol) is an internet protocol that lets a network user automatically be configured to receive an 
+IP address and have an operating system booted without user involvement.
+
+
+
+Transmission modes
+------------------
+
+
+The  way in Which data in transmission from one device to another device is known as transmission mode'
+
+The Transmission mode I Also Know as the Communication mode. 
+
+Transmission mode  types
+--------------------------
+
+1. Simplex,       2 Duplex   -- Half Duplex , Full Duplex
+
+
+
+
+1.simplex
+   
+    *One -Way  communication  
+    
+   *A Device can only send the data but cannot receive it or it can receive the data.
+ 
+ EX: TV, Radio keyboard and Monitor
+
+
+
+duplex
+-------   
+1.Holf - duplex
+
+     *send are Receive Data
+
+     * Data flow in both the  directions, but not at the same time.
+
+EX: Walkie-talkie
+ 
+
+2.Full - duplex
+
+             *Tow -Way communication and two -way Transmission.
+
+             *Both the Stations can send Receive the Data simultaneously 
+
+EX: Mobile Network
+
+      -----------------------------------OSI------------------------------
+
+
+OSI --- Open Systems Interconnection.
+
+Developed by International Organization of Standardization  (IOS) 
+
+
+To Achieve International Standards in communication 
+  
+
+
+7 layers OF OSI Model
+---------------------
+
+                           PDU                                               FUNCTIONS                                              PROTOCOLS
+
+Application Layer                                                       HMAN-MECHINE INTERFACE                                HTTP,FTP,SMTP,DNS,DHCP     
+
+Presentation Layer        DATA                          ENCRYPTION,DECRPTION, REPRESENTATION OF DATA FORMAT                           SSL,TLS
+
+Session Layer                                           ESTABLISHMENT,MAINTAN,TERMINATION OF SESSIONS                              PPTO,SIP,SAP
+   
+Transport Layer          SEGMENT                        SEGMENTATION, ACKNOWLEDGEMENT,SEQUENCING,DUPLICATE DETECTION                  TCP,UDP        port address 16 bit
+
+Network Layer            PACKET                         ADDRESSING & ROUNTING                                                        IPV4,IPV6,      logical address 32 bit
+
+Data link Layer          FRAMES                         ERROR DETECTION,FLOW CONTROL                                               ATM,SLIP,FREME    MAC Address 44 bit
+
+Physical Layer            BITS                          HARWARE MEANS OF SENDING & RECEIVING BITS STREAMS ON CARRIER                USE,BLUETOOTH
+
+
+
+
+Application layer
+-----------------
+
+* it commination with the network application protocols
+
+* such as  (smtp, http, HTTPs, ftp) Simple Mail Transfer Protocol, Hypertext Transfer Protocol, Hypertext Transfer Protocol Secure, File transfer protocol.
+
+* Application programs to access a network and is resources
+
+
+
+Presentation
+-----------
+
+*  Translation, encryption, compression
+
+* his is the first layer to convert the data to communicate with the network
+
+* The is also know as translation layer on Encryption, compression
+
+
+session layer
+-------------
+
+* Authentication username , password             dialog controlled
+
+* maintaining the one then terminating t when appropriate
+
+*controlling how when and for how long a device transmits
+
+
+Transport Layer
+---------------
+
+segmentation port address
+     * reliable data transmission
+
+    *flow control
+    
+    *control same error correction and sending acknowledgements
+
+    
+
+Network layer
+-------------
+
+* *segment is converted into packets
+
+*router is a Network layer device
+
+* Addressing and ensures delivery of packet across a network
+
+*protocol address to be attached to the pocket that is used by routing devices to make their decisions
+
+
+
+Data link layer  mac Address
+---------------
+
+* PACKETS ARE CONVETED IN TO FRAMES
+
+
+* INDIVIDUAL FRAMES MOVE FROM ONE DEVICE TO ANOTHER WITHOUT ERROR
+
+* BRIDGES AND SOME SWITCH TO OPERATE OF THIS Layer
+
+
+* the data link layer can be divided into two sections
+
+  logical link control (LLC) media access control (mac)
+
+
+
+
+Physical Layer
+--------------
+
+
+FRAMES	ARE CONVERTED INTO SINGLE bits 0.1
+
+ * HARWARE MEANS OF SENDING & RECEIVING BITS STREAMS ON CARRIER 
+
+
+
+
+
+Introduction:
+
+
+1. logical address                                                192.168.10.5
+
+2. physical address
+
+
+ *IP Address is internet protocol Address.
+
+ *it is a unique address used to identify a device in the IP network.
+ 
+ * 2 versions of ip address
+               
+            1. ipv4 32 bits
+  
+            2. ipv6 128 bits
+
+
+2 types of ip Address
+--------------------
+
+public ip  
+
+private ip   
+
+
+ip address can be divided in to  two portions
+----------------------------------------------
+
+Network portion
+
+host portion
+
+
+ipv4 Address:
+------------
+
+
+  *it is made up of 32 binary bits.
+
+  * 32 binary bits are broken in to 4 octets (1 octal =8 bits) and converted in to decimals.
+
+  * the value of each Octal ranges from 0 to 255 in decimal or 00000000-11111111 in binary
+
+  * The decimal Format of ipv4 address is 192.168.10.11
+
+  *Subnet is an logical subdivision of an ip network. Dividing, dividing on ip network is subnetting.
+
+  *Advantages of subnetting
+          
+            minimize broadcasting, secured
+
+
+
+    subnet Mask is a 32 bit number that is used to identify network portion & host portion in the ip address
+
+
+* it is made of putting all Network bit as "1" & host bit as "0"
+
+* last octet is reserved for specific functions "0" indicates the Network address and "255" used to broadcast
+
+types of classes in  ipv4 Address
+---------------------------------                                       subnet mask               
+
+Class A:  1.0.0.1 to 127.255.255.255                        N.H.H.H        255.0.0.0       SUPPORTE 16,777,214 HOST ON EACH OF 126 NETWORKS                
+
+Class B: 128.0.0.1 to 191.255.255.255                       N.N.H.H        255.255.0.0     SUPPORTE 65,534 HOST ON EACH 16,382 NETWORKS                
+
+Class C: 192.0.0.1 to 223.255.255.255                       N.N.N.H        255.255.255.0   SUPPORTE 254 HOST ON EACH OF 2,097,150 NETWORKS                
+
+Class D: 224.0.0.1 to 239.255.255.255                     no SUBNET MASK                       RESERVED FOR MULTCASTING
+
+Class E: 240.0.0.1 to 255.255.255.255                         "                                 DEVELOPMENT URPOSE
+           
+
+128 64 32 16 8 4 2 1
+
+
+PRIVATE IP ADDRESS
+------------------
+
+ 
+CLASS           PRIVATE NETWORK                          SUBNET MASK                            ADDRESS RANGE
+
+
+A               10.0.0.0                                  255.0.0.0                      10.0.0.0- 10.255.255.255
+
+
+B              172.16.0.0-172.31.0.0                     255.240.O.O                    172.16.0.0 - 172.31.255.255
+
+ 
+c               192.168.0.0                              255.255.0.0                    192.168.0.0 - 192.168.255.255
+
+
+
+
+
+
+
+                     IPV4                                                             IPV6
+
+      1.  32 BIT ADDRESS                                                     1. 128.BIT ADDRESS                                                                          
+
+
+      2.  DOTTED FORMAT                                                      2. HEXADECIMAL FORMAT
+
+
+      3.  CLASS'S                                                            3. NO CLASS
+
+
+      4. SUBNETING                                                           4.NO SUBNETING
+
+
+      5. 4.3 BILLION ADDRESS                                                 5. 3.4 x 1038      UNIQUE IP address
+
+      
+      6. DEPLOYED IN 1981                                                    6. DEPLOYED IN 1998
+
+
+
+
+
+
+
+
+MAC Address   physical address 
+----------
+
+Media Access Control Address
+
+                                     IP Address                                      MAC ADDRESS
+
+size                                  32 BITS                                          48 BITS
+
+BINARY                     1100000010101000001110111011111             110000001010100000011101110110000001010100011111
+
+READABLE FORMAT                      DECIMAL                                            HEXADECIMAL
+
+EX                               192.168.29.223                                       DC-FB-48-78-FB-9B
+
+STRUCTURE                      NETWORK & HOST ID                        MANUFACTURE & SERIAL ID   (NIC) NETWORK INTERFACE CARD
+ 
+
+
+
+TCP/IP                              OSI
+
+APPLICATION           APPLICATION, PRESENTATION, SESSION            
+
+TRANSPORT              TRANSPORT
+
+NETEORK                NETWORK
+
+NETWORK INTERFACE      DATA LINK LAYER,PHYSICAL   HOST TO NETWORK
+
+
+
+
+TCP/IP 
+
+Transmission Control Protocol/Internet Protocol
+
+
+Hypertext Transfer Protocol (HTTP)
+
+Hypertext Transfer Protocol Secure (HTTPS)
+
+Simple Mail Transfer Protocol (SMTP)                                       APPLICATION LAYER
+
+File transfer protocol (FTP)
+
+Domain Name Server (DNS)
+
+
+
+
+
+Transmission Control Protocol (TCP)
+
+
+User Datagram Protocol (UDP)                                            TRANSPORT
+
+
+Stream Control Transmission Protocol (SCTP)
+
+
+
+
+
+
+
+     OSI MODEL                                                                  TCP/IP MODEL
+
+
+IMPLEMENTATION MODEL                                                    	REFERNCE MODEL
+                                               
+
+
+OSI MODEL PROVUDES A CLEAR DISCRIPTION BETWEEN                    TCP/IP DOESN'T HAVE ANY CLEAR DESIGNATION POINTS BETWEEN SERVICE,INTERFACE               
+INTERFACE, SERVICES,AND PROTOCALS.  
+
+
+OPEN SYSTEM INTERCONNECTION                                                TRANSMISSION CONTROL PROTOCOL
+  
+
+
+OSI FOLLOWS A VERTICAL APPROACH                                          TCP/IP FOLLOWS A HORIZONTAL APPROACH
+
+
+OSI  LAYERS HAVE SEVEN LAYERS.                                           TCP/IP HAS FOUR LAYERS.       BOTH OF SAME PROCESS
+
+
+OSI MODEL .THE TRANSPORT LAYER IS ONLY CONNECTION ORIENTED              A  LAYER OF THE TCP/IP MODEL IS BOTH CONNECTION ORIENTED AND CONNECTIONLESS
+
+
+
+
+
+
+CABLE
+------
+
+568A                                 568B
+
+WHITE GREEN  GREEN             WHITE ORANGE ORANGE
+
+WHITE ORANGE BLUE               WHITE GREEN BLUE
+
+WHITE BLUE ORANGE              WHITE BLUE GREEN
+
+WHITE BROWN BROWN              WITE BROWN BROWN
+
+
+
+1. STRAIGHT CABLE
+
+2. CROSS OVER CABLE
+
+3. ROLL OVER CABLE
+
+
+1. STRAIGHT CABLE
+ 
+      *IT IS A COMMON STANDARD TYPES OF CABLE
+
+
+       *BOTH ENDS OF THE CABLES IS CONNECTED WITH SAME STANDARD.IF ONE END TO THE CABLE IS CONNECTED WITH 568 A AND ALSO CONNECTED WITH 568 A
+
+       *THIS TYPES OF CABLES USED TO CONNECTED DEFFERNT NETWORK DEVIES LIKE ROUTER TO switch , Switch TO COMPUTER
+
+
+
+2. CROSS OVER CABLE.
+
+      *BOTH ENDS CABLE IS CONNECTED WITH DIFFERENT STANDARDS ONE END IS CONNECTED WITH 568A AND OTHER ONE IS CONNETED WITH 568B.
+       
+      *THIS TYPES OF CABLE ARE USED TO CONNECTED WITH OPPOSITE SIMILOR DEVIEC. SUCH AS SWITCH TO SWITCH AND ROUTER TO ROUTER
+
+3.ROOL OVER CABLE.
+
+     *BOTH ENDS  ARE CONNETED WITH OPPOSITIE SING ONE END IS CONNECTED WITH 568A AND THE OTHER ENDS IS CONNECTED WITH OPPOSIDE OF 568A
+  
+     *IT IS USED TO CONNECT PROT OF SWITCH,ROUTER
+
+
+
+
+ip v4
+
+•	The 0.0.0.0 /0 network is used to identify all networks, and is referred to as the default route
+
+
+•	The 0.0.0.0 /8 range is used to identify hosts on the local network. Addresses in this range can only be used as a source address. The most commonly used address in this range is 0.0.0.0 /32, which a host will use when dynamically attempting to 
+
+
+
+•	The entire 127.x.x.x /8 range is reserved for diagnostic purposes. The most commonly used address in this range is 127.0.0.1, which identifies the local host, and is referred to as the loopback or localhost address. 
+
+
+•	The 169.254.x.x /16 range is reserved for Automatic Private IP Addressing (APIPA). A host assigns itself an address in this range, if it cannot dynamically obtain an address from a DHCP server. 
+
+
+•	The 224.x.x.x – 239.x.x.x ranges are reserved for multicast, and are referred to as Class D addresses. 
+
+
+
+•	The 240.x.x.x – 255.x.x.x ranges are reserved for future and experimental use, and were formerly referred to as Class E addresses. 
+ 
+
+•	The 255.255.255.255 address can be used as a broadcast address for the local network. 
+ 
+
+
+----------------------------------------------DHCP-----------------------------
+
+
+DYNAMIC HOST CONFIUGURATION PROTOCAL (DHCP)
+
+
+
+STATICATY.
+
+      BY MANUALLY ENTRY ADDRESSING INFORMATION ON EACH INDIVIDUAL NETWORK NODE
+
+
+DYNAMICALLY
+-----------
+   
+          *BY USING THE DYNAMIC HOST CONFIUGURATION PROTOCAL.
+ 
+          *IT HELPS TO ASSIGN A DYNAMIC IP ADDRESS TO THE CLIENT
+
+*IT WORKS LENDER THE PROCESS DORA
+
+
+D- DISCOVER
+
+O- OFFER
+
+R- request
+
+A- ACKNOWLEDGEMENT'
+
+
+
+-------------------APIPA--------------
+
+Automatic Private IP Addressing (APIPA)
+
+   * APIPA IS A SEVICE THAT ENABLES A DHCP CLENT COMPUTER TO CONFIGURE IFSELT AUTOMATICALLY WITH ON IP ADDRESS IN THE RANGE OF 169.254.0.1 TO 169.254.255.254.
+
+
+*APIPA IS USED WHEN NONE OF THE DHCP SEVERS RESPOND TO THE CLIENT'S DHCP DISCOVER BROADCAST
+
+
+DNS FQDNS  DOMIN NAME SYSTEM ,SERVICE   Fully qualified domain name SYSTEM FQDNS
+--------
+
+ * DNS IS A TCP/IP NAME RESOLUTION SERVICE THAT TRANSLATES FQDN INTO IP ADDRESS
+
+
+
+The following is an example of what an FQDN looks like: www.NetworkSolutions.com. In this example, the “www” is the hostname, “network solutions” is the second-level domain and “com” is the TLD.
+
+
+SERVERS INVOVED IN LOADING WEBPAGE
+
+ 1. DNS RESURSOR            WORKER, search
+ 
+ 2. ROOT NAMESERVER         out put number
+
+ 3. TLD NAMESERVER        top-level domain list countries
+
+ 4. authoritative nameserver     search the name
+
+
+
+-------------------------CCNA
+
+
+Router Memory Components 
+ 
+Cisco routers (and switches) generally contain four types of memory: 
+•	ROM (Read-Only Memory) 
+•	Flash 
+•	NVRAM (Non-Volatile RAM) 
+•	RAM (Random-Access Memory) 
+
+   
+
+. RAM RANDOM ACCESS MEMORY
+  
+     RAM IS A VOLATILE MEMORY, AND THUS ITS CONTENTS WILL BE LOST IF THE ROUTER IS POWERED OFF
+
+  
+   NVRAM 
+        IS WE WANT TO STORE A FILE PERMANENTLY, DATA WILL BE STORED IN NVRAM. DATA WILL BE STORED EVEN IS ROUTER GERS RELOADED
+
+
+FLASH MEMORY
+      
+LIKE IN COMPUTERS, DATA & OPERATING SYSTEM BOTH GETS STORED IN HARD-DISK DRIVE
+BUT IN CASE OF ROUTER, IOS INTER-NETWORK OPERATING SYSTEM GETS STOORED IN FLASH MEMORY
+
+
+ROM
+    IT HELP TO PERFORM POST (POWER ON SELF-TEST)
+
+      POST IS SUCESSFULLY DONE BY ROM , ONCE ROUTER IS POWERED ON & AFTER THAT ROUTER WILL START BOOTING.
+
+
+
+The Router Boot-Process, Quick Reference
+----------------------------------------- 
+ 
+The following details the router boot process: 
+ 
+1.	The router is powered on. 
+ 
+2.	The bootstrap program (ROMmon) is loaded from ROM. 
+ 
+3.	The bootstrap runs POST. 
+ 
+4.	The bootstrap attempts to load the IOS from Flash. 
+
+a.	If the IOS is not found in Flash, the bootstrap loads into RAM the basic IOS stored in ROM. 
+b.	If the IOS is found in Flash, it is loaded into RAM. 
+ 
+5.	The IOS attempts to load the startup-config file from NVRAM 
+
+c.	If the startup-config is found in NVRAM, it is loaded into 
+RAM. 
+ 
+6.	The startup-config becomes the running-config in RAM. 
+ 
+
+
+Using Lines to Configure the IOS
+-------------------------------- 
+ 
+As mentioned previously, three methods (or lines) exist to configure Cisco IOS devices: 
+•	Console ports 
+•	Auxiliary ports 
+•	VTY (telnet) ports 
+ 
+
+Console ports
+--------------
+Nearly every modern Cisco router or switch includes a console port, sometimes labeled on the device simply as con. The console port is generally a RJ-45 connector, and requires a rollover cable to connect to. The opposite side of the rollover cable connects to a PC’s serial port using a serial terminal adapter. 
+
+
+Auxiliary port
+---------------
+
+Some Cisco devices include an auxiliary port, in addition to the console port. The auxiliary port can function similarly to a console port, and can be accessed using a rollover cable. Additionally, auxiliary ports support modem commands, thus providing dial-in access to Cisco devices. 
+
+VTY (telnet) ports  Virtual teletype.
+------------------
+
+Telnet, and now SSH, are the most common methods of remote access to routers and switches. 
+
+
+
+
+The Cisco IOS 
+--------------
+
+Cisco IOS
+--------
+   The Cisco IOS (Internetwork Operating System) is a command-line
+interface used by nearly all current Cisco routers and Catalyst switches. The
+IOS provides the mechanism to configure all Layer 2 and Layer 3 functions
+on Cisco devices. 
+
+
+The IOS is structured into several modes, which contain sets of commands
+specific to the function of that mode
+
+
+
+
+Router         #          show                  startup-config
+
+ |             |            |                       |
+
+Hostname     Mode        Command                 Argument 
+
+
+
+By default, the first mode you enter when logging into a Cisco device is
+User EXEC mode. User mode appends a “>” after the device hostname:
+
+                  Router>
+
+No configuration can be changed or viewed from User mode. Only basic
+status information can be viewed from this mode.
+
+Privileged EXEC mode allows all configuration files, settings, and status
+information to be viewed. Privileged mode appends a “#” after the device
+hostname:
+
+             Router#
+
+To enter Privileged mode, type enable from User mode:
+ 
+             Router> enable
+             Router#
+
+To return back to User mode from Privileged mode, type disable:
+
+             Router# disable
+             Router>
+
+Very little configuration can be changed directly from Privileged mode.
+Instead, to actually configure the Cisco device, one must enter Global
+Configuration mode:
+
+            Router(config)#
+
+To enter Global Configuration mode, type configure terminal from
+Privileged Mode:
+
+            Router# configure terminal
+            Router(config)#
+
+To return back to Privileged mode, type exit:
+
+             Router(config)# exit
+             Router# 
+
+
+
+
+Routing Table Basics 
+-------------------- 
+ 
+Routing is the process of sending a packet of information from one network to another network. Thus, routes are usually based on the destination network, and not the destination host (host routes can exist, but are used only in rare circumstances). 
+ 
+To route, routers build Routing Tables that contain the following: 
+•	The destination network and subnet mask 
+•	The “next hop” router to get to the destination network 
+•	Routing metrics and Administrative Distance 
+ 
+The routing table is concerned with two types of protocols: 
+•	A routed protocol is a layer 3 protocol that applies logical addresses to devices and routes data between networks. Examples would be IP and IPX. 
+•	A routing protocol dynamically builds the network, topology, and next hop information in routing tables. Examples would be RIP, IGRP, OSPF, etc. 
+ 
+To determine the best route to a destination, a router considers three elements (in this order): 
+•	Prefix-Length 
+•	Metric (within a routing protocol) 
+•	Administrative Distance (between separate routing protocols) 
+
+
+
+Static vs. Dynamic Routing
+--------------------------
+There are two basic methods of building a routing table:                                                                                                                                                           
+• Static Routing
+• Dynamic Routing
+
+Static Routing
+--------------
+
+A static routing table is created, maintained, and updated by a network
+administrator, manually.
+
+Static routing is a manual process. 
+
+Static routing is used in smaller networks.
+
+
+Dynamic routing
+---------------
+
+A dynamic routing table is created, maintained, and updated by a routing
+protocol running on the router. Examples of routing protocols include RIP
+(Routing Information Protocol), EIGRP (Enhanced Interior Gateway
+Routing Protocol), and OSPF (Open Shortest Path First)                   
+ 
+
+
+Classful vs Classless routing protocols
+---------------------------------------
+Classful routing protocols do not send subnet mask information with their
+routing updates. A router running a classful routing protocol will react in one
+of two ways when receiving a route.
+
+          Examples of classful routing protocols include RIPv1 and IGRP. 
+
+Classless routing protocols
+----------------------------
+Classlesss  protocols  send subnet mask information with their
+routing updates. Thus, Variable Length Subnet Masks (VLSMs) are allowed when using
+classless routing protocols.  
+
+      Examples of classless routing protocols include RIPv2, EIGRP, OSPF, and+
+IS-IS. 
+
+
+RIP (Routing Information Protocol)
+---------------------------------
+RIP is a standardized Distance Vector protocol, designed for use on smaller
+
+networks. RIP was one of the first true Distance Vector routing protocols,
+
+and is supported on a wide variety of systems.
+
+RIP adheres to the following Distance Vector characteristics:
+
+• RIP sends out periodic routing updates (every 30 seconds)
+• RIP sends out the full routing table every periodic update
+• RIP uses a form of distance as its metric (in this case, hop count)
+• RIP uses the Bellman-Ford Distance Vector algorithm to determine
+  the best “path” to a particular destination
+
+Other characteristics of RIP include:
+
+• RIP supports IP and IPX routing.
+• RIP utilizes UDP port 520
+• RIP routes have an administrative distance of 120.
+• RIP has a maximum hop count of 15 hops.
+Any network that is 16 hops away or more is considered unreachable to RIP,
+thus the maximum diameter of the network is 15 hops. A metric of 16 hops
+in RIP is considered a poison route or infinity metric. 
+
+
+RIP Versions               
+-------------
+RIP has two versions, Version 1 (RIPv1) and Version 2 (RIPv2).
+RIPv1 (RFC 1058) is classful, and thus does not include the subnet mask
+with its routing table updates.
+
+RIPv1 sends updates as broadcasts to address 255.255.255.255.
+
+
+RIPv2 (RFC 2543) is classless, and thus does include the subnet mask with
+its routing table updates. RIPv2 fully supports VLSMs, allowing                      
+discontiguous networks and varying subnet masks to exist. 
+
+
+
+
+RIPv2 can interoperate with RIPv1. By default
+---------------------------------------------
+
+• RIPv1 routers will sent only Version 1 packets
+• RIPv1 routers will receive both Version 1 and 2 updates
+• RIPv2 routers will both send and receive only Version 2 updates 
+
+
+
+RIP Timers
+-----------
+RIP has four basic timers
+
+Invalid Timer (default 180 seconds) – indicates how long a route will
+remain in a routing table before being marked as invalid, if no new updates
+are heard about this route.
+
+
+Hold-down Timer
+---------------
+A route will enter a hold-down state for one of three reasons
+
+• The invalid timer has expired.
+• An update has been received from another router, marking that route
+with a metric of 16 (or unreachable).
+• An update has been received from another router, marking that route
+with a higher metric than what is currently in the routing table. This is
+to prevent loops. 
+
+
+Flush Timer (default 240 seconds)
+----------------------------------
+
+indicates how long a route can remain
+
+in a routing table before being flushed, if no new updates are heard about
+this route. The flush timer runs concurrently with the invalid timer, and
+thus will flush out a route 60 seconds after it has been marked invalid.
+
+
+R2 cmd
+#router rip
+#network 20.0.0.0 
+#network 30.0.0.0 
+
+
+
+                 Administrative Distance
+
+
+Connected                0
+
+Static                   1
+
+EIGRP Summary            5
+
+External BGP            20
+
+Internal EIGRP          90
+
+IGRP                   100
+
+OSPF                   110
+
+IS-IS                  115
+
+RIP                    120
+
+External EIGRP         170
+
+Internal BGP           200
+
+Unknown                255 
+
+
+
+OSPF (Open Shortest Path First) 
+--------------------------------
+ 
+OSPF is a standardized Link-State routing protocol, designed to scale efficiently to support larger networks. 
+
+
+OSPF adheres to the following Link State characteristics
+
+*	OSPF employs a hierarchical network design using Areas. 
+
+*	OSPF will form neighbor relationships with adjacent routers in the same Area
+
+*       the status of directly connected links using Link-State Advertisements (LSAs). 
+
+*	OSPF traffic is multicast either to address 224.0.0.5 (all OSPF routers) or 224.0.0.6 (all Designated Routers). 
+
+*	OSPF uses the Dijkstra Shortest Path First algorithm to determine the shortest path.  
+
+•	OSPF is a classless protocol and thus supports VLSMs    Variable Length Subnet Mask
+
+
+Other characteristics of OSPF include: 
+                               
+•	OSPF supports only IP routing. 
+
+•	OSPF routes have an administrative distance is 110. 
+
+
+The OSPF process builds and maintains three separate tables 
+
+*	A neighbor table – contains a list of all neighboring routers.  ROUTER ALL INFORMETION #SHOW IP OSPF NEIGHBOR
+
+*	A topology table – contains a list of all possible routes to all known networks within an area. #SHOW IP OSPF topology
+
+*	A routing table – contains the best route for each known network. #SHOW IP ROUTE
+ 
+  
+
+
+
+File transfer protocol (FTP)
+-----------------------------
+
+* is a way to download, upload, and transfer files from one location to another on the Internet and between computer systems
+
+
+* FTP enables the transfer of files back and forth between computers or through the cloud.
+
+
+Telnet
+------ 
+
+Telnet is a network protocol used to virtually access a computer and to provide a two-way, collaborative and text-based communication channel between two machines.
+
+      
+Terminal emulation programs that allow you to log into a remote host. However, TELNET can also be used for terminal-to-terminal communication and interprocess communicatio
+
+
+NTP
+---
+The Network Time Protocol (NTP) is used by hundreds of millions of computers and devices to synchronize their clocks over the Internet. If your computer sets its own clock, it likely uses NTP.
+
+
+SMTP (Simple Mail Transfer Protocol) 
+
+is a TCP/IP protocol used in sending and receiving email. SMTP is used most commonly by email clients, including Gmail, Outlook, Apple Mail and Yahoo Mail
+
+
+
+
+The Hypertext Transfer Protocol (HTTP) 
+
+is the foundation of the World Wide Web, and is used to load webpages using hypertext links. HTTP is an application layer protocol designed to transfer information between networked devices and runs on top of other layers of the network protocol stack.
+
+
+
+Hypertext Transfer Protocol Secure (https) 
+
+is a combination of the Hypertext Transfer Protocol (HTTP) with the Secure Socket Layer (SSL)/Transport Layer Security (TLS) protocol. TLS is an authentication and security protocol widely implemented in browsers and Web server
+
+
+POP3  Post Office Protocol 3
+----
+
+POP3 only allows a single device at a time to access the emails. IMAP allows multiple devices at a time to access and read the available mails. A user cannot update or create emails on the mail server by using the POP3 protocol
+
+Internet Mail Access Protocol version 4) IMAP4
+---------------------------------------
+Ceate, rename, and delete mailboxes (usually presented to the user as folders) on the server, and copy messages between mailboxes. Multiple mailbox support also allows servers to provide access to shared and public folders.
+
+Secure Socket Shell (SSH) 
+-------------------------
+Key Management, also called Secure Shell Management, is a special network protocol leveraging public-key cryptography to enable authorized users to remotely access a computer or other device via access credentials called SSH keys.
+
+
+
+
+firewall
+-------
+
+A firewall is a security system designed to prevent unauthorized access into or out of a computer network.
+
+1. hardware firewall 
+
+2. software firewall
+
+5 type of firewall
+-------------------
+
+ packet filtering firewall
+
+ ircuit-level gateway.
+
+ Application-level gateway (aka proxy firewall)
+
+ Stateful inspection firewall.
+
+ Next-generation firewall (NGFW
+
+
+
+
+ packet filtering firewall
+--------------------------
+
+        check the system information data as that data comes be hacked, someone
+
+       
+         You can also configure your firewall to allow only packets intended for your mail or web server while rejecting all others.
+
+
+ circuit-level gateway
+-----------------------
+
+      A circuit-level gateway is a type of firewall that operates on layer 5 of the Open Systems Interconnection (OSI) model, which is the session layer
+
+    to help in validating connections and checking which network packets contain data to pass when there is a match with an entry in the virtual circuit table.
+
+
+
+An application layer gateway (ALG) 
+
+  is a type of security software or device that acts on behalf of the application servers on a network, protecting the servers and applications from traffic that might be malicious.
+
+  An application layer gateway (ALG) is a type of security software or device that acts on behalf of the application servers on a network, protecting the servers and applications from           traffic that might be malicious.
+
+
+ Stateful inspection firewall.
+------------------------------
+
+A stateful firewall is a kind of firewall that keeps track and monitors the state of active network connections while analyzing incoming traffic and looking for potential traffic and data risks
+
+ 
+
+Next-generation firewall (NGFW
+------------------------------
+
+    A next-generation firewall (NGFW) is a firewall designed to protect against the modern cyber threats that companies face.
+
+    A next-generation firewall is within the third generation of firewall technology, designed to address advanced security threats at the application level through intelligent, context-aware security features.
+
+
+Repeater
+--------
+
+A repeater is a powerful network hardware device that regenerates an incoming signal from the sender before retransmitting it to the receiver. 
+
+
+Bridge
+------
+
+A bridge is a class of network device that's designed to connect networks at OSI Level 2, which is the data link layer of a local-area network (LAN).
+
+types of bridges
+--------------
+
+   *manual bridges
+
+   *learning bridges
+
+
+Gateway
+-------
+   
+  A gateway in a network converts information from one protocol to another and then transfers it over the web.  
+
+         example, if a computer on the Internet sends an email to another, the gateway converts the message from one protocol to another and sends it back
+
+
+
+EIGRP (Enhanced Interior Gateway Routing Protocol) bIGP INTER
+---------------------------------------------------
+EIGRP is a Cisco-proprietary Hybrid routing protocol, incorporating
+features of both Distance-Vector and Link-State routing protocols.
+
+EIGRP adheres to the following Hybrid characteristics
+-----------------------------------------------------
+
+• EIGRP uses Diffusing Update Algorithm (DUAL) to determine the
+best path among all “feasible” paths. DUAL also helps ensure a loop free routing environment.
+
+• EIGRP will form neighbor relationships with adjacent routers in the
+same Autonomous System (AS).
+
+• EIGRP traffic is either sent as unicasts, or as multicasts on address
+224.0.0.10, depending on the EIGRP packet type.
+
+• Reliable Transport Protocol (RTP) is used to ensure delivery of most
+EIGRP packets.
+
+• EIGRP routers do not send periodic, full-table routing updates.
+Updates are sent when a change occurs, and include only the change.
+
+• EIGRP is a classless protocol, and thus supports VLSMs.
+
+Other characteristics of EIGRP include:  PDM  
+---------------------------------------
+• EIGRP supports IP, IPX, and Appletalk routing.
+
+• EIGRP applies an Administrative Distance of 90 for routes originating
+within the local Autonomous System.
+
+• EIGRP applies an Administrative Distance of 170 for external routes
+coming from outside the local Autonomous System
+
+• EIGRP uses Bandwidth and Delay of the Line, by default, to
+calculate its distance metric. It also supports three other parameters to
+calculate its metric: Reliability, Load, and MTU  (maximum transmission unit).
+
+• EIGRP has a maximum hop-count of 224, though the default
+maximum hop-count is set to 100. 
+
+
+
+
+Software-Defined Networking (SDN) 
+----------------------------------
+
+Software-Defined Networking (SDN) is an approach to networking that uses software-based 
+
+controllers or application programming interfaces (APIs) to communicate with underlying hardware infrastructure and direct traffic on a network
+
+
+SDN encompasses several types of technologies, including functional separation, network virtualization and automation through programmability. 
+
+Originally, SDN technology focused solely on the separation of the network control plane from the data plane.
+
+
+
+
+The three layers in an SDN architecture are
+
+Application: The applications and services running on the network
+
+Central: the SDN controller or "brains- of the network
+
+Infrastructure: switches and Routes, and the supporting physical hardware
+
+SDN Benefits
+------------
+Direct programmability
+-----------------------
+SDN network policy is directly programmable because the control functions are decoupled from forwarding functions, 
+write enables the network to De programmatically 
+
+configured by proprietary or open-source automation tools, including OpenStac:k- Puppet, Salt, Ansible, and Chet
+
+Centralized management
+---------------------
+
+Network intelligence is logically centralized in SON software that maintains a global view Of the network, 
+which shows 10 applications of SDN network policy engines as a Single. logical switch.
+
+
+
+
+
+Network Address Translation
+----------------------------
+NAT (Network Address Translation)
+
+The rapid growth of the Internet resulted in a shortage of available IPv4
+addresses. In response, a specific subset of the IPv4 address space was
+designated as private, to temporarily alleviate this problem.
+
+A public address can be routed on the Internet. Thus, devices that must be
+Internet-accessible must be configured with (or reachable by) public
+addresses. Allocation of public addresses is governed by the Internet
+Assigned Numbers Authority (IANA).
+
+A private address is intended for internal use within a home or
+organization, and can be freely used by anyone. However, private addresses
+can never be routed on the Internet. In fact, Internet routers are configured to
+immediately drop traffic with private addresses.
+
+Three private address ranges were defined in RFC 1918, one for each IPv4
+
+class:
+• Class A - 10.x.x.x /8
+• Class B - 172.16.x.x /16
+• Class C - 192.168.x.x /24
+
+It is possible to translate between private and public addresses, using
+Network Address Translation (NAT).
+
+
+
+Types of NAT
+------------
+NAT can be implemented using one of three methods
+
+Static NAT – performs a static one-to-one translation between two
+addresses, or between a port on one address to a port on another address
+
+
+Dynamic NAT – utilizes a pool of global addresses to dynamically translate
+the outbound traffic of clients behind a NAT-enabled device.
+
+
+
+NAT Overload or Port Address Translation (PAT) – translates the
+outbound traffic of clients to unique port numbers off of a single global
+address
+
+
+
+NAT Terminology
+----------------
+
+Specific terms are used to identify the various NAT addresses
+
+• Inside Local – the specific IP address assigned to an inside host
+behind a NAT-enabled device (usually a private address).
+
+• Inside Global – the address that identifies an inside host to the
+outside world (usually a public address). Essentially, this is the
+dynamically or statically-assigned public address assigned to a private
+host.
+
+• Outside Global – the address assigned to an outside host (usually a
+public address).
+
+• Outside Local – the address that identifies an outside host to the
+inside network. Often, this is the same address as the Outside Global.
+However, it is occasionally necessary to translate an outside (usually
+public) address to an inside (usually private) address. 
+
+
+
+Dynamic NAT CMD
+----------------
+
+Router(config)#int gig0/0
+Router(config-if)#ip nat inside
+Router(config-if)#exit
+Router(config-if)#int gig0/1
+Router(config-if)#ip nat outside
+Router(config-if)#exit
+Router(config)#access-list 10 permit 10.0.0.0 0.255.255.255
+Router(config)# ip nat pool red 192.168.10.1 192.168.10.5 netmask 255.255.255.0
+Router(config)# ip nat inside source list 10 pool red
+
+
+IPv6 offers the following features
+----------------------------------
+
+• Increased Address Space and Scalability – providing the absurd
+number of possible addresses stated previously.
+
+• Simplified Configuration – allows hosts to auto-configure their IPv6
+addresses, based on network prefixes advertised by routers.
+
+• Integrated Security – provides built-in authentication and encryption
+into the IPv6 network header
+
+• Compatibility with IPv4 – simplifies address migration, as IPv6 is
+backward-compatible with IPv4
+
+
+The IPv6 Address
+---------------
+The IPv6 address is 128 bits, as opposed to the 32-bit IPv4 address. Also
+unlike IPv4, the IPv6 address is represented in hexadecimal notation,
+separate by colons. 
+
+An example of an IPv6 address would be 
+
+
+1254:1532:26B1:CC14:0123:1111:2222:3333
+
+
+IPv6 always use CIDR notation to determine what bits notate the prefix of
+an address: 
+
+Classless Inter-Domain Routing
+
+Full Address: 1254:1532:26B1:CC14:123:1111:2222:3333/64
+Prefix ID: 1254:1532:26B1:CC14
+Host ID: 123:1111:2222:3333 
+
+The /64 indicates that the first 64 bits of this address identify the prefix
+
+
+
+
+We can drop any leading zeros in each field of an IPv6 address. For
+example, consider the following address
+
+1423:0021:0C13:CC1E:3142:0001:2222:3333
+
+
+
+Only leading zeros can be condensed. If we have an entire field comprised of
+zeros, we can further compact the following address.
+
+F12F:0000:0000:CC1E:2412:1111:2222:3333
+
+The condensed address would be: F12F::CC1E:2412:1111:2222:3333.
+
+Notice the double colons (::). We can only condense one set of contiguous
+zero fields.
+
+ip v6
+-----
+
+The address space that has been allocated is organized into several types,
+determined by the high-order bits of the first field.
+
+• Special Addresses – addresses begin 00xx:
+• Link Local – addresses begin FE8x:
+• Site Local – addresses begin FECx:
+• Aggregate Global – addresses begin 2xxx: or 3xxx:
+• Multicasts – addresses begin FFxx:
+• Anycasts
+
+(Note: an “x” indicates the value can be any hexadecimal number)
+
+There are no broadcast addresses in IPv6. Thus, any IPv6 address that is
+not a multicast is a unicast address.
+
+Anycast addresses identify a group of interfaces on multiple hosts. Thus,
+multiple hosts are configured with an identical address. Packets sent to an
+anycast address are sent to the nearest (i.e., least amount of hops) host.
+
+
+
+
+
+Special (Reserved) IPv6 Addresses
+---------------------------------
+
+0:0:0:0:0:0:0:0 (or ::) – is an unspecified or unknown address. It is
+the equivalent of the IPv4 0.0.0.0 address
+
+
+0:0:0:0:0:0:0:1 (or ::1) – is the loopback or localhost address. It is
+the equivalent of the IPv4 127.0.0.1 address.
+
+
+
+Reserved Addresses - IPv4 and IPv6 Compatibility
+-------------------------------------------------
+
+To alleviate the difficulties of immediately migrating from IPv4 to IPv6,
+specific reserved addresses can be used to embed an IPv4 address into an
+IPv6 address.
+
+Two types of addresses can be used for IPv4 embedding, IPv4-compatible
+IPv6 addresses, and IPv4-mapped IPv6 addresses.
+
+• 0:0:0:0:0:0:a.b.c.d (or ::a.b.c.d) – is an IPv4-compatible IPv6
+address. This address is used on devices that support both IPv4 and
+IPv6. A prefix of /96 is used for IPv4-compatible IPv6 addresses:
+
+                    ::192.168.1.1/96
+
+• 0:0:0:0:0:FFFF:a.b.c.d (or ::FFFF:a.b.c.d) – is an IPv4-mapped
+IPv6 address. This address is used by IPv6 routers and devices to
+identify non-IPv6 capable devices. Again, a prefix of /96 is used for
+IPv4-mapped IPv6 addresses:
+
+              ::FFFF:192.168.1.1/96
+
+
+Site Local IPv6 Addresses.
+--------------------------
+
+Site-local IPv6 addresses are the equivalent of “private” IPv4 addresses.
+
+
+The first field of a site-local IPv6 address will always begin FECx (1111
+1110 11
+
+
+
+
+Aggregate Global IPv6 Addresses
+--------------------------------
+
+Aggregate Global IPv6 addresses are the equivalent of “public” IPv4
+addresses. Aggregate global addresses can be routed publicly on the Internet. 
+
+
+
+Multicast IPv6 Addresses
+------------------------
+
+Multicast IPv6 addresses are the equivalent of IPv4 multicast addresses
+
+
+The first field of a multicast IPv6 address will always begin FFxx (1111
+1111)
+
+
+Access Control Lists (ACLs) by naresh m
+
+-----------------------------
+
+Access control lists (ACLs) can be used for two purposes on Cisco devices
+
+• To filter traffic
+• To identify traffic
+
+Access lists are a set of rules, organized in a rule table. Each rule or line in
+an access-list provides a condition, either permit or deny.
+
+• When using an access-list to filter traffic, a permit statement is used to
+“allow” traffic, while a deny statement is used to “block” traffic.
+
+• Similarly, when using an access list to identify traffic, a permit
+statement is used to “include” traffic, while a deny statement states
+that the traffic should “not” be included. It is thus interpreted as a
+true/false statement. 
+
+
+Types of Access Lists
+---------------------
+
+There are two categories of access lists: numbered and named.
+
+
+Numbered access lists are broken down into several ranges, each dedicated
+to a specific protocol: 
+
+
+1–99 IP standard access list
+100-199 IP extended access list
+
+Named
+
+Named access lists provide a bit more flexibility. Descriptive names can be
+used to identify your access-lists
+
+Standard IP Access List
+-----------------------
+
+Standard IP access-lists are based upon the source host or network IP
+address, and should be placed closest to the destination network.
+
+
+Extended IP Access List
+------------------------
+
+Extended IP access-lists block based upon the source IP address, destination
+IP address, and TCP or UDP port number. Extended access-lists should be
+placed closest to the source network.
+
+
+What is a network switch
+
+A network switch connects devices within a network (often a local area network, or LAN*) 
+and forwards data packets to and from those devices. Unlike a router, a switch only sends data to the 
+single device it is intended for (which may be another switch, a router, or a user's computer), 
+not to networks of multiple devices
+
+
+* In the context of computer networking, a "switch" refers to a networking device that connects multiple devices within a local area network (LAN). It operates at the data link layer (Layer 2) or sometimes at the network layer (Layer 3) of the OSI model.
+
+* They use MAC addresses to forward data to the appropriate destination device within the same network segment.
+
+MAC Address Learning
+---------------------
+            
+Switches learn the MAC addresses of devices connected to each of their ports. They maintain a MAC address table (also known as a forwarding table or CAM table) that maps MAC addresses to the corresponding switch ports.
+
+Forwarding
+-----------
+
+When a switch receives a frame (data packet) from a device, it looks up the destination MAC address in its MAC address table to determine the outgoing port for that address. It then forwards the frame only to the port where the destination device is connected, rather than broadcasting it to all ports as a hub would.
+
+Frame Filtering
+---------------
+
+Switches filter traffic based on MAC addresses. Frames destined for devices connected to a specific port are only forwarded to that port, improving network efficiency and security.
+
+Full Duplex
+------------
+
+Switches support full-duplex communication, allowing data to be transmitted and received simultaneously on each port. This enhances network performance compared to hubs, which operate in half-duplex mode.
+
+VLAN Support
+-------------
+
+Many switches support Virtual LANs (VLANs), which allow networks to be logically segmented into multiple virtual networks, improving network management, security, and traffic isolation.
+
+Virtual LANs (VLANs) by naresh m
+
+-------------------
+
+By default, a switch will forward both broadcasts and multicasts out every
+port but the originating port. However, a switch can be logically segmented
+into separate broadcast domains, using Virtual LANs (or VLANs).
+
+
+
+Each VLAN represents a unique broadcast domain
+---------------------------------------------
+
+• Traffic between devices within the same VLAN is switched.
+
+• Traffic between devices in different VLANs requires a Layer-3
+  device to communicate. 
+
+
+
+Advantages of VLANs
+-------------------
+VLANs provide the several benefits:
+
+• Broadcast Control – eliminates unnecessary broadcast traffic,
+improving network performance and scalability.
+
+• Security – logically separates users and departments, allowing
+administrators to implement access-lists to control traffic between
+VLANs.
+
+• Flexibility – removes the physical boundaries of a network, allowing
+a user or device to exist anywhere
+
+
+VLAN Port Types
+---------------
+
+A VLAN-enabled switch supports two types of ports:
+
+• Access ports
+• Trunk ports
+
+*An access port is a member of only a single VLAN. Access ports are most
+often used to connect host devices, such as computers and printers. By
+default on Cisco switches, all switch ports are access ports.
+
+*Any host connected to an access port immediately becomes a member of the
+VLAN configured on that port. This is transparent to the host - it is unaware
+that it belongs to a VLAN
+
+
+
+VLAN Trunking Protocol (VTP)
+----------------------------
+
+Maintaining a consistent VLAN database can be difficult in a large
+switching environment.
+
+Cisco’s proprietary VLAN Trunking Protocol (VTP) simplifies this
+management - updates to the VLAN database are propagated to all switches
+using VTP advertisements.
+
+VTP requires that all participating switches join a VTP domain. Switches
+must belong to the same domain to share VLAN information, and a switch
+can only belong to a single domain
+
+
+
+VTP Modes
+---------A switch using VTP must operate in one of three modes.
+• Server
+• Client
+• Transparent
+
+VTP servers
+----------- 
+VTP servers are responsible for creating, deleting, or modifying entries in
+the VLAN database. Each VTP domain must have at least one VTP server,
+and this is the default mode for Cisco switches. 
+
+
+VTP clients
+-----------
+VTP clientcannot modify the VLAN database, and rely on advertisements
+from other switches to update VLAN information. A client will also forward
+VTP advertisements out every trunk port. 
+
+VTP transparent
+---------------
+
+A VTP transparent switch maintains its own local VLAN database, and
+does not directly participate in the VTP domain. A transparent switch will
+never accept VLAN database information from another switch, even a
+server. Also, a transparent switch will never advertise its local VLAN
+database to another switch. 
+
+
+
+
+Switch Port Security
+--------------------
+
+Port Security adds an additional layer of security to the switching network.
+
+The MAC address of a host generally does not change. If a specific host will
+always remain connected to a specific switch port, then the switch can filter
+all other MAC addresses on that port using Port Security.
+
+Port Security supports both statically mapping MAC addresses, and
+dynamically learning addresses from traffic sent on the port
+
+
+Only hosts configured with the above two MAC addresses will be allowed to
+send traffic through this port.
+
+If the maximum number of MAC addresses for this port had been set to 10,
+but only two were statically mapped, the switch would dynamically learn the
+remaining eight MAC addresses.
+
+Port Security refers to dynamically learned MAC addresses as sticky
+addresses. Sticky addresses can be aged out after a period of inactivity,
+measured in minute
+
+
+A violation occurs if an unauthorized MAC address attempts to forward
+traffic through a port. 
+
+• Shutdown – If a violation occurs, the interface is placed in an
+errdisable state. The interface will stop forwarding all traffic,
+including non-violating traffic, until it is removed from an errdisable
+state. This is the default action for Port Security.
+
+• Restrict – If a violation occurs, the interface will remain online.
+Legitimate traffic will be forwarded, and unauthorized traffic will be
+dropped. Violations are logged, either via a syslog message or SNMP
+trap.
+
+• Protect – If a violation occurs, the interface will remain online.
+Legitimate traffic will be forwarded and unauthorized traffic will be
+dropped, but no logging will occur
+
+
+
+
+Spanning Tree Protocol (STP)
+----------------------------
+
+Spanning Tree Protocol (STP) was developed to prevent the broadcast
+storms caused by switching loops. STP was originally defined in IEEE
+802.1D.
+
+Switches running STP will build a map or topology of the entire switching
+network.
+
+A blocked port can be reactivated if another port goes down. This allows
+STP to maintain redundancy and fault-tolerance.
+
+However, because ports are blocked to eliminate loops, STP does not
+support load balancing unless an EtherChannel is used. 
+
+STP switches exchange Bridge Protocol Data Units (BPDU’s) to build the
+topology database. 
+
+STP is enabled by default on all Cisco switches, for all VLANs. 
+
+
+
+Building the STP topology is a multistep convergence process..
+
+• A Root Bridge is elected
+• Root ports are identified
+• Designated ports are identified
+• Ports are placed in a blocking state as required, to eliminate loops
+
+
+Electing an STP Root Bridge
+-----------------------------
+The first step in the STP convergence process is electing a Root Bridge,
+which is the central reference point for the STP topology. As a best practice,
+the Root Bridge should be the most centralized switch in the STP topology.
+A Root Bridge is elected based on its Bridge ID, comprised of two
+
+components in the original 802.1D standard
+------------------------------------------
+• 16-bit Bridge priority
+• 48-bit MAC address
+
+
+Identifying Root Ports
+----------------------
+The second step in the STP convergence process is to identify root ports.
+
+The root port of each switch has the lowest root path cost to get to the Root
+Bridge.
+
+Each switch can only have one root port. The Root Bridge cannot have a
+root port, as the purpose of a root port is to point to the Root Bridge. 
+
+
+Identifying Designated Ports
+-----------------------------
+
+The third step in the STP convergence process is to identify designated
+ports. 
+
+A single designated port is identified for each network segment. This
+port is responsible for forwarding BPDUs and frames to that segment.
+
+If two ports are eligible to become the designated port, then there is a loop.
+One of the ports will be placed in a blocking state to eliminate the loop. 
+
+
+
+STP Port States
+---------------
+
+As STP converges the switching topology, a switch port will progress
+through a series of states
+
+• Blocking
+• Listening
+• Learning
+• Forwarding
+. Disable 
+
+Initially, a switch port will start in a blocking state
+--------------------------------------------------------
+
+• A blocking port will not forward frames or learn MAC addresses.
+
+• A blocking port will still listen for BPDUs from other switches, to
+learn about changes to the switching topology. 
+
+listening port
+--------------
+
+• A listening port will not forward frames or learn MAC addresses.
+• A listening port will send and listen for BPDUs, to participate in the
+election of the Root Bridge, root ports, and designated ports. 
+
+learning port
+------------
+• A learning port will continue to send and listen for BPDUs.
+• A learning port will begin to add MAC addresses to the CAM table. 
+
+
+
+forwarding port 
+-----------------
+ 
+• A port must wait another forward delay before transitioning from
+learning to forwarding.
+
+• A forwarding port is fully functional – it will send and listen for
+BPDUs, learn MAC addresses, and forward frames. 
+
+
+. Disable 
+---------
+
+ . This port will not participate in the STP operations
+
+
+
+
+CLASSLESS INTER DOMAIN ROUTING     CIDR by naresh m
+----------------------------------------
+
+
+What is CIDR (Classless Inter-Domain Routing or supernetting)? CIDR (Classless Inter-Domain Routing or supernetting) 
+is a method of assigning IP addresses that improves the efficiency of address distribution and replaces the previous system based on Class A, Class B and Class C networks.
+
+
+subnetting
+---------
+
+subnetting is the process of creating a new network or subnets
+
+the default subnet mask 255.255.255.0 the binary number for
+
+11111111.11111111.11111111.00000000
+
+there is a total of 24 bitsets set to 1 of 8 bits set to 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
